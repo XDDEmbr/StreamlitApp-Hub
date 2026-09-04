@@ -10,13 +10,6 @@
 - **Web 端维护**：新增 / 编辑 / 删除注册表条目，可登记任意目录的项目或生成内置骨架
 - **批量操作**：全部启动 / 全部停止
 
-## 当前管理的应用（工作区三大项目）
-
-| 应用 | 入口文件 | 端口 |
-|------|----------|------|
-| Quote（金仕达行情看板） | `D:\AI-Code-Program\Quote\app.py` | **8510** |
-| Meta-Governance（元数据治理） | `D:\AI-Code-Program\Meta-Governance\streamlist_app.py` | **8511** |
-| Skill（Skill 生成器） | `D:\AI-Code-Program\Skill\app.py` | **8512** |
 
 在 Hub 界面点「启动」即可拉起对应项目，点「打开」直接访问其独立端口。
 
