@@ -11,36 +11,6 @@
       "auto_start": false,
       "icon": ":material/monitoring:",
       "python": "study"
-    },
-    {
-      "name": "meta_governance",
-      "entry": "streamlist_app.py",
-      "path": "D:\\AI-Code-Program\\Meta-Governance",
-      "description": "元数据治理平台",
-      "port": 8511,
-      "auto_start": false,
-      "icon": ":material/account_tree:",
-      "python": "study"
-    },
-    {
-      "name": "skill",
-      "entry": "app.py",
-      "path": "D:\\AI-Code-Program\\Skill",
-      "description": "Skill 生成器：文档解析 → 结构化 Skill",
-      "port": 8512,
-      "auto_start": false,
-      "icon": ":material/build_circle:",
-      "python": "study"
-    },
-    {
-      "name": "tdh_api",
-      "entry": "streamlit_app.py",
-      "path": "D:\\AI-Code-Program\\TDH-API",
-      "description": "浏览、调试任意 OpenAPI 接口,并调用 AI 分析返回结果。",
-      "port": 8513,
-      "auto_start": false,
-      "icon": ":material/dashboard:",
-      "python": "study"
     }
   ]
 }
