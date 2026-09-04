@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "_comment": "由 Hub 自动维护。每个元素是一个可被管理的 Streamlit 应用；entry 为相对 apps/<name>/ 的入口文件路径；port 留空则自动分配。",
+  "apps": [
+    {
+      "name": "quote",
+      "entry": "app.py",
+      "path": "D:\\AI-Code-Program\\Quote",
+      "description": "金仕达行情看板：ClickHouse + Streamlit 沪深 Level2 行情分析平台",
+      "port": 8510,
+      "auto_start": false,
+      "icon": ":material/monitoring:",
+      "python": "study"
+    },
+    {
+      "name": "meta_governance",
+      "entry": "streamlist_app.py",
+      "path": "D:\\AI-Code-Program\\Meta-Governance",
+      "description": "元数据治理平台",
+      "port": 8511,
+      "auto_start": false,
+      "icon": ":material/account_tree:",
+      "python": "study"
+    },
+    {
+      "name": "skill",
+      "entry": "app.py",
+      "path": "D:\\AI-Code-Program\\Skill",
+      "description": "Skill 生成器：文档解析 → 结构化 Skill",
+      "port": 8512,
+      "auto_start": false,
+      "icon": ":material/build_circle:",
+      "python": "study"
+    },
+    {
+      "name": "tdh_api",
+      "entry": "streamlit_app.py",
+      "path": "D:\\AI-Code-Program\\TDH-API",
+      "description": "浏览、调试任意 OpenAPI 接口,并调用 AI 分析返回结果。",
+      "port": 8513,
+      "auto_start": false,
+      "icon": ":material/dashboard:",
+      "python": "study"
+    }
+  ]
+}
